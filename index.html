@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moundou Impact Digital - Services Digitaux</title>  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Moundou Impact Digital</div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Bienvenue sur Moundou Impact Digital</h1>
+            <p>Nous offrons des services digitaux de qualité pour aider les entrepreneurs, associations et particuliers à renforcer leur présence en ligne. De la création de logos à la conception de sites web, en passant par le community management et les cartes de visite, notre mission est de rendre le digital accessible à tous, depuis Moundou jusqu’au monde !</p>
+            <button onclick="alert('Découvrez nos services !')">Découvrir nos services</button>
+        </section>
+        <section class="produits">
+            <h2>Nos Services</h2>
+            <div class="conteneur-cartes">
+                <div class="carte-produit">
+                    <img src="logo mid.jpg" alt="Logo">
+                    <h3>Création de Logo</h3>
+                    <p>Un logo professionnel pour votre marque ou entreprise.</p>
+                    <p>Prix : 600 FCFA</p>
+                    <button onclick="ajouterAuPanier('Logo')">Ajouter au panier</button>
+                </div>
+                <div class="carte-produit">
+                    <img src="carte de visite.jpg" alt="Carte de visite">
+                    <h3>Cartes de visite</h3>
+                    <p>Designs modernes pour laisser une bonne impression.</p>
+                    <p>Prix : 1000 FCFA</p>
+                    <button onclick="ajouterAuPanier('Carte de visite')">Ajouter au panier</button>
+                </div>
+                <div class="carte-produit">
+                    <img src="cm.jpg" alt="Community Management">
+                    <h3>Community Management</h3>
+                    <p>Nous gérons vos réseaux sociaux avec stratégie et créativité.</p>
+                    <p>Prix : 5000 FCFA</p>
+                    <button onclick="ajouterAuPanier('Community Management')">Ajouter au panier</button>
+                </div>
+                <div class="carte-produit">
+                    <img src="web sit.jpg" alt="Site Web">
+                    <h3>Création de Site Web</h3>
+                    <p>Sites vitrines ou e-commerce adaptés à vos besoins.</p>
+                    <p>Prix : 1500 FCFA</p>
+                    <button onclick="ajouterAuPanier('Site Web')">Ajouter au panier</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer> 
+        <p>&copy; 2025 Moundou Impact Digital - Tous droits réservés</p>
+    </footer> 
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              const introSection = document.querySelector('.intro');
+              setTimeout(() => {
+                introSection.classList.add('loaded');
+              }, 500);
+            });
+          </script>  
+</body>
+</html>

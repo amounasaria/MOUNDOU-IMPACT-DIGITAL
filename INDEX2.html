@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moundou Impact Digital - Services Digitaux</title>  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Moundou Impact Digital</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section d'introduction -->
+        <section class="intro" id="home">
+            <h1>Bienvenue sur Moundou Impact Digital</h1>
+            <p>Nous offrons des services digitaux de qualité pour aider les entrepreneurs, associations et particuliers à renforcer leur présence en ligne. De la création de logos à la conception de sites web, en passant par le community management et les cartes de visite, notre mission est de rendre le digital accessible à tous, depuis Moundou jusqu’au monde !</p>
+            <button onclick="alert('Découvrez nos services !')">Découvrir nos services</button>
+        </section>
+
+        <!-- Section Nos Services -->
+        <section class="produits">
+            <h2>Nos Services</h2>
+            <div class="conteneur-cartes">
+                <!-- Produit 1 -->
+                <div class="carte-produit">
+                    <img src="logo mid.jpg" alt="Logo">
+                    <h3>Création de Logo</h3>
+                    <p>Un logo professionnel pour votre marque ou entreprise.</p>
+                    <p>Prix : 600 FCFA</p>
+                    <button onclick="ajouterAuPanier('Création de Logo')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 2 -->
+                <div class="carte-produit">
+                    <img src="carte de visite.jpg" alt="Carte de visite">
+                    <h3>Cartes de visite</h3>
+                    <p>Designs modernes pour laisser une bonne impression.</p>
+                    <p>Prix : 1000 FCFA</p>
+                    <button onclick="ajouterAuPanier('Cartes de visite')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 3 -->
+                <div class="carte-produit">
+                    <img src="cm.jpg" alt="Community Management">
+                    <h3>Community Management</h3>
+                    <p>Nous gérons vos réseaux sociaux avec stratégie et créativité.</p>
+                    <p>Prix : 5000 FCFA</p>
+                    <button onclick="ajouterAuPanier('Community Management')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 4 -->
+                <div class="carte-produit">
+                    <img src="web sit.jpg" alt="Site Web">
+                    <h3>Création de Site Web</h3>
+                    <p>Sites vitrines ou e-commerce adaptés à vos besoins.</p>
+                    <p>Prix : 1500 FCFA</p>
+                    <button onclick="ajouterAuPanier('Création de Site Web')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 5 -->
+                <div class="carte-produit">
+                    <img src="flyer.jpg" alt="Flyer promotionnel">
+                    <h3>Création de Flyers</h3>
+                    <p>Des flyers attractifs pour booster votre communication.</p>
+                    <p>Prix : 800 FCFA</p>
+                    <button onclick="ajouterAuPanier('Création de Flyers')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 6 -->
+                <div class="carte-produit">
+                    <img src="Affiche publicitaire.jpg" alt="Affiche publicitaire">
+                    <h3>Affiches Publicitaires</h3>
+                    <p>Des visuels impactants pour vos campagnes locales.</p>
+                    <p>Prix : 1200 FCFA</p>
+                    <button onclick="ajouterAuPanier('Affiches Publicitaires')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 7 -->
+                <div class="carte-produit">
+                    <img src="video-promo.jpg.jpg" alt="Vidéo promotionnelle">
+                    <h3>Création de Vidéos</h3>
+                    <p>Des vidéos dynamiques pour valoriser vos produits/services.</p>
+                    <p>Prix : 7000 FCFA</p>
+                    <button onclick="ajouterAuPanier('Vidéos Promotionnelles')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 8 -->
+                <div class="carte-produit">
+                    <img src="site-ecommerce.png" alt="Site e-commerce">
+                    <h3>Site E-commerce</h3>
+                    <p>Boutiques en ligne modernes et sécurisées.</p>
+                    <p>Prix : 10 000 FCFA</p>
+                    <button onclick="ajouterAuPanier('Site E-commerce')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 9 -->
+                <div class="carte-produit">
+                    <img src="gestion-rs.png" alt="Gestion de Réseaux Sociaux">
+                    <h3>Gestion Réseaux Sociaux</h3>
+                    <p>Optimisation et animation de vos pages Facebook/Instagram.</p>
+                    <p>Prix : 4000 FCFA</p>
+                    <button onclick="ajouterAuPanier('Gestion Réseaux Sociaux')">Ajouter au panier</button>
+                </div>
+                <!-- Produit 10 -->
+                <div class="carte-produit">
+                    <img src="email-marketing.jpg" alt="Email Marketing">
+                    <h3>Campagnes Email Marketing</h3>
+                    <p>Envoyez des emails pros pour fidéliser vos clients.</p>
+                    <p>Prix : 3000 FCFA</p>
+                    <button onclick="ajouterAuPanier('Email Marketing')">Ajouter au panier</button>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Section À propos -->
+        <section class="apropos" id="apropos">
+            <h2>À propos de Moundou Impact Digital</h2>
+            <p>Moundou Impact Digital est une organisation qui a pour mission de renforcer les compétences numériques des jeunes de Moundou et de les accompagner dans la création et le développement d'entreprises digitales et sociales. Elle vise à transformer le potentiel des jeunes en véritable levier de développement économique et social, en utilisant le digital comme outil principal pour lutter contre le chômage et promouvoir l'entrepreneuriat local.</p>
+            <p>Notre objectif est d'offrir des services digitaux accessibles à tous, tout en créant un impact durable dans la région de Moundou, grâce à des formations, des conseils, et des projets d'accompagnement.</p>
+        </section>
+        
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <h2>Contactez</h2>
+            <p>Vous pouvez nous joindre directement :</p>
+            
+            <div class="infos-contact">
+                <p><strong>Email :</strong> contact@moundouimpactdigital.com</p>
+                <p><strong>Téléphone :</strong> +235 63 26 27 52</p>
+                <p><strong>Adresse :</strong> Moundou, Tchad</p>
+                <p><strong>WhatsApp :</strong> +235 90 83 23 55</p>
+        
+                <div class="reseaux-sociaux">
+                    <a href="https://www.facebook.com/profile.php?id=61573771876881" target="_blank">Facebook</a> |
+                </div>
+            </div>
+        <section class="contact" id="contact">
+            <h2>Contactez-nous</h2>
+            <form onsubmit="return validerFormulaire()">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer> 
+        <p>&copy; 2025 Moundou Impact Digital - Tous droits réservés</p>
+    </footer> 
+
+    <script src="Script2.js"></script>
+</body>
+</html>

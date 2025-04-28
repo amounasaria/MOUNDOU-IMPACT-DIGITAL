@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1efef;
+    color: #3c3b3b;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0d81fc;
+    color: rgb(243, 239, 239);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(16, 16, 16, 0.1);
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: rgb(151, 142, 142);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #e5ebf1;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Section Introduction */
+.intro {
+    background-color: rgb(241, 234, 234);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(31, 31, 31, 0.1);
+    text-align: center;
+}
+
+.intro h1 {
+    color: #111111;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    color: #5b5858;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.intro button {
+    background-color: #28a745;
+    color: rgb(236, 234, 234);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.intro button:hover {
+    background-color: #1e7e34;
+}
+
+/* Section Nos Services */
+.produits {
+    text-align: center;
+}
+
+.produits h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.conteneur-cartes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.carte-produit {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.carte-produit img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.carte-produit h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.carte-produit p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.carte-produit button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.carte-produit button:hover {
+    background-color: #0056b3;
+}
+
+/* Section À propos */
+.apropos {
+    padding: 60px;
+    background-color: #0f70f8;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.apropos h2 {
+    color: #01191e;
+    margin-bottom: 20px;
+}
+
+.apropos p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+
+/* Section Contact */
+.contact {
+    background-color: #32f4fb;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #181616;
+    color: rgb(5, 240, 60);
+    text-align: center;
+    padding: 15px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
